@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    /* width: 100%;
+    position: fixed; */
+}
+.nav-icon-img{
+     width: 120px;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list-anchor{
+    color: white;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.nav-list-anchor:hover{
+    color: yellowgreen;
+}
