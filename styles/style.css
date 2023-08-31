@@ -31,5 +31,44 @@
 
 /* ----main-section----  */
 
+#banner{
+    border-image: url('../images/background.png');
+}
+.banner-container{
+    background-image: url('../images/background.png'),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    height: 100vh;
+    align-items: center;
+}
+.banner-heading{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.banner-description{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.banner-btn{
+    color: white;
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+
+}
+.banner-btn:hover{
+    color:dimgray;
+    font-weight:bold;
+    cursor: pointer;
+}
+.banner-photo{
+    width: 300px;
+}
 
 /* ----footer-section----  */
