@@ -180,3 +180,38 @@ button:hover {
 
 
 /* ----footer-section----  */
+footer{
+    background-color:black;
+    color: white;
+    padding: 100px 150px; 
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+}
+.footer-column>h5{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.footer-column>p{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.footer-column>ol{
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.footer-column> address > ol{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.footer-column>img{
+    width: 170px;
+    padding-bottom: 20px;
+}
+.copy-right{
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
