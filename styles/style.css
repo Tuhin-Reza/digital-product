@@ -38,7 +38,6 @@
     background-image: url('../images/background.png'),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
     height: 100vh;
     align-items: center;
 }
@@ -52,23 +51,53 @@
     color: white;
     font-size: 18px;
     margin-top: 15px;
-    margin-bottom: 15px;
 }
-.banner-btn{
+button{
     color: white;
     padding: 10px 20px;
     background-color: red;
     border: none;
     border-radius: 5px;
+    margin-bottom: 10px;
 
 }
-.banner-btn:hover{
+button:hover{
     color:dimgray;
     font-weight:bold;
     cursor: pointer;
 }
 .banner-photo{
     width: 300px;
+}
+
+.about-heading{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 55px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-photo{
+    width: 300px;
+}
+
+.about-text-heading{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.about-text-description{
+    font-size: 18px;
+}
+#underline{
+    border-bottom: 3px solid black;
+}
+.about-btn{
+    margin-top: 10px;
 }
 
 /* ----footer-section----  */
